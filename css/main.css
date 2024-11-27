@@ -1,5 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+
 
 /*
 	Landed by HTML5 UP
@@ -13,7 +15,7 @@ pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
+legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
@@ -32,6 +34,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 
 ol, ul {
 	list-style: none;
@@ -97,7 +100,7 @@ input, select, textarea {
 		transition: none !important;
 	}
 
-	body, input, select, textarea {
+	body, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
@@ -129,6 +132,7 @@ input, select, textarea {
 		margin-left: 2em;
 	}
 
+	  
 	em, i {
 		font-style: italic;
 	}
@@ -2243,7 +2247,7 @@ input, select, textarea {
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
+		width: 50%;
 	}
 
 		input[type="text"]:invalid,
