@@ -1,0 +1,1 @@
+<h2><be><?= $viewData['uzenet']?><br></h2>
