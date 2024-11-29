@@ -7,7 +7,7 @@ class Loginauth_Model
 		$retData['eredmeny'] = "";
 		try {
 			$connection = Database::getConnection();
-			$sql = "select id, vezeteknev, keresztnev, jogosultsag from users where felhasznalonev='".$vars['felhasznalonev']."' and jelszo='".sha1($vars['jelszo'])."'";
+			$sql = "select id, vezeteknev, keresztnev, jogosultsag from users where felhasznalonev='".$vars['felhasznalonev']."' and jelszo='".$vars['jelszo']."'";
 			$stmt = $connection->query($sql);
 			$felhasznalo = $stmt->fetchAll(PDO::FETCH_ASSOC);
 			switch(count($felhasznalo)) {
